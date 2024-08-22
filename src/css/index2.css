@@ -1,0 +1,51 @@
+@media only screen and (max-width:1440px) {
+    #box4{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #box5{
+        display: flex;
+        flex-wrap: wrap;
+       
+    } #box6{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #box7{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    #box8{
+       display: none;
+    }
+    #box9{
+        display: none;
+     }
+    #lg{
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+    }
+    #box71{
+        display: none;
+    }
+    #box7{
+        display: none;
+    }
+    #star{
+        display: none;
+    }
+    #seclastbox{
+        display: none;
+    }
+    #last{
+        display: none;
+    }
+    #box2{
+        width: 90%;
+    }
+}
