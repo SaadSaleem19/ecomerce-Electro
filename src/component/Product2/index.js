@@ -20,19 +20,19 @@ export function Product2(props) {
         <Box _hover={{ boxShadow: "0px 1px 15px -3px", }} backgroundColor={"white"} h={"350px"} w={"220px"} ml={"3.5%"} >
 
             <Box style={{ fontSize: "12px", margin: "20px", }}>
-                <a href="#" ><Text color={"grey"} paddingTop={"10px"} _hover={{ color: "black" }}>{props.vel.id}</Text></a>
+                <a href="#" ><Text color={"grey"} paddingTop={"10px"} _hover={{ color: "black" }}>{props.vel.description}</Text></a>
             </Box>
             <Box style={{ fontSize: "15px", fontWeight: 700, display: "flex", justifyContent: "center", margin: "20px", marginTop: "-10px" }}>
                 <a href="#"> <Text color={"#0066cc"}>{props.vel.title}</Text></a>
             </Box>
             <Box style={{ display: "flex", justifyContent: "center" }}>
                 
-                <a href="#"><Image h={"160px"} w={"160px"} src={props.vel.img}></Image></a>
+                <a href="#"><Image h={"160px"} w={"160px"} src={props.vel.photos}></Image></a>
             </Box>
             <Box style={{display:'flex',flexDirection:"row"}}>
                 
                 <Text paddingLeft={"25px"} fontSize={"20px"}>
-                    $159.00
+                 {props.vel.price}$
                 </Text>
               
                 <a href="#"><Tooltip label='Add to cart' placement='top' hasArrow arrowSize={15}>
