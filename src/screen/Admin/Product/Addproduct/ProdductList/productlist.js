@@ -309,7 +309,7 @@ const ProdductList = () => {
                   _hover={{ color: "blue" }}
                   w={"300px"}
                 >
-                  {val.title}
+                  <a href="#">{val.title}</a> 
                 </Text>
                 <Box
                   gap={"70px"}
@@ -348,7 +348,7 @@ const ProdductList = () => {
                     >
                       <Box w={"105px"}>
                         <Text fontSize={"14px"} w={"205px"} ml={"-80px"}>
-                          {val.title}
+                        {val.title}
                         </Text>
                       </Box>
                       <Box gap={"-10px"}>
